@@ -1,0 +1,1 @@
+include ':app', ':common_lib', ':base_module', ':module_main', ':module_home', ':module_courses', ':module_me', ':module_organize'

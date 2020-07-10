@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--APP的主题色-->
+    <color name="colorPrimary">#257ab0</color>
+    <color name="colorPrimaryRed">#257ab0</color>
+    <color name="colorPrimaryDark">#B2000C</color>
+
+    <color name="colorAccent">#FF5252</color>
+    <drawable name="charIndexColor">#33000000</drawable>
+    <!--APP公用的一些颜色-->
+    <color name="theme_title">#257ab0</color>
+    <color name="course_divider">#e8e8e8</color>
+    <color name="common_bg">#fff7f7f7</color>
+    <color name="common_text">@android:color/primary_text_light</color>
+    <color name="common_text_black">#333333</color>
+    <color name="common_text_gray">#989898</color>
+    <color name="common_text_red">#ec4747</color>
+    <color name="common_hint_text">@color/gray_AD</color>
+    <color name="divider_color">#eef2f6</color>
+    <color name="divider_list">#dddddd</color>
+    <color name="divider_color1">#e8e8e8</color>
+    <color name="divider_color_exam">#dcdcdc</color>
+    <color name="black_overlay">@color/black_alpha40</color>
+    <color name="common_title_bg">#CA2C32</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="transparent_color">#00ffffff</color>
+    <color name="text_black_4d">#4d4d4d</color>
+    <color name="text_908f94">#908f94</color>
+    <color name="bg_999999">#999999</color>
+    <color name="bg_gray">#dedede</color>
+    <color name="treeview_third">#f2f9ff</color>
+    <color name="text_color_404040">#404040</color>
+    <color name="color_map_grid_selected">#F9686D</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_10">#1affffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="white_30">#4dffffff</color>
+
+    <!--黑色-各种等级透明度-->
+    <color name="black">#ff000000</color>
+    <color name="black_alpha10">#1a000000</color>
+    <color name="black_alpha15">#26000000</color>
+    <color name="black_alpha20">#33000000</color>
+    <color name="black_alpha30">#4d000000</color>
+    <color name="black_alpha32">#52000000</color>
+    <color name="black_alpha40">#66000000</color>
+    <color name="black_alpha5">#0d000000</color>
+    <color name="black_alpha50">#80000000</color>
+    <color name="black_alpha54">#89000000</color>
+    <color name="black_alpha60">#99000000</color>
+    <color name="black_alpha80">#cc000000</color>
+    <color name="black_alpha81">#333333</color>
+
+    <!--灰色-各种等级透明度-->
+    <color name="gray_32">#ff323232</color>
+    <color name="gray_33">#ff333333</color>
+    <color name="gray_35">#ff353535</color>
+    <color name="gray_66">#ff666666</color>
+    <color name="gray_7f">#ff7f7f7f</color>
+    <color name="gray_80">#ff808080</color>
+    <color name="gray_88">#ff888888</color>
+    <color name="gray_8832">#88323232</color>
+    <color name="gray_AD">#ffadadad</color>
+    <color name="gray_C8">#ffc8c8c8</color>
+    <color name="gray_D5">#ffd5d5d5</color>
+    <color name="gray_E6">#ffe6e6e6</color>
+
+    <color name="gray_cc">#ffcccccc</color>
+    <color name="gray_d9">#ffd9d9d9</color>
+    <color name="gray_f0">#fff0f0f0</color>
+    <color name="gray_f2">#fff2f2f2</color>
+    <color name="gray_f3">#fff3f3f3</color>
+    <color name="gray_eef2">#eef2f6</color>
+    <color name="gray_f4">#fff4f4f4</color>
+    <color name="gray_f6">#fff6f6f6</color>
+    <color name="gray_fc">#fffcfcfc</color>
+    <color name="gray_e0">#e0e0e0</color>
+
+
+    <color name="dialog_title">#333333</color>
+    <color name="dialog_btn_text">#0774fb</color>
+    <color name="dialog_content_text">#666666</color>
+    <color name="dialog_content_frame">#e8e8e8</color>
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+
+    <color name="course_down">#ec4747</color>
+    <color name="course">#FFF4C5C2</color>
+
+
+    <color name="visit_black">#333333</color>
+    <color name="visit_gray_background">#eef2f6</color>
+    <color name="visit_gray_text">#989898</color>
+    <color name="visit_red_text">#db1101</color>
+
+    <color name="online_black">#333333</color>
+    <color name="online_gray_background">#eef2f6</color>
+    <color name="online_gray_text">#989898</color>
+    <color name="online_red_text">#db1101</color>
+    <color name="online_background1">#fffbf5</color>
+    <color name="online_btn_background1">#df9e39</color>
+    <color name="online_text1">#fd961f</color>
+    <color name="online_text2">#fd9e39</color>
+    <color name="line_fx">#dddddd</color>
+
+
+    <color name="px_class">#FF9C00</color>
+    <color name="px_class_text">#ff999999</color>
+    <color name="px_bg_text">#096ADC</color>
+
+    <color name="exam_info_bg_one">#fffaf4</color>
+
+
+    <color name="nnw_text_hint_color">#b0a79d</color>
+    <color name="nnw_message_num_bg">#ede9e2</color>
+    <color name="nnw_home_search_bg">#4d823636</color>
+    <color name="nnw_home_tab_bg">#f1eae4</color>
+    <color name="nnw_home_divide">#e4ded8</color>
+    <color name="nnw_home_special_text">#fff9f1</color>
+    <color name="nnw_home_special_bg">#e0000000</color>
+    <color name="nnw_divide">#f0eee6</color>
+    <color name="nnw_me_text_black">#394551</color>
+    <color name="nnw_me_text_red">#e53e3e</color>
+    <color name="nnw_article_item_bg">#f3f3f3</color>
+    <color name="nnw_shape_pink">#fc9090</color>
+    <color name="nnw_bg_null">#00000000</color>
+    <color name="nnw_tab_divider">#f0eee6</color>
+    <color name="nnw_training_choose">#ff6615</color>
+    <color name="nnw_training_line">#f7b0b0</color>
+
+    <color name="divider_credits">#BEBEBE</color>
+    <color name="tab_rank">#eff5ff</color>
+
+
+
+
+    <color name="course_list_top_bg">#4374DF</color>
+    <color name="course_list_tab_select">#FED803</color>
+    <color name="course_list_tab">#FFFFFF</color>
+
+
+    <color name="hn_home_bg">#eff5ff</color>
+    <color name="hn_home_red">#ee3f3f</color>
+    <color name="hn_home_red_time">#e3241a</color>
+    <color name="hn_home_purple">#c9c0ff</color>
+    <color name="hn_home_yellow">#f6c50b</color>
+
+    <color name="hn_home_xuanxiu">#ee3f3f</color>
+    <color name="hn_home_bixiu">#18a0ff</color>
+
+    <color name="course_selected">#00b4ff</color>
+    <color name="half_transparent">#8f000000</color>
+
+
+    <color name="hn_red">#e60000</color>
+    <color name="pruple">#c9c0ff</color>
+    <color name="yellow">#f6c50b</color>
+    <color name="pdf_page_bg">#e0bfbfbf</color>
+
+
+    <color name="hn_intelligence_blue">#ff0c83f9</color>
+    <color name="hn_intelligence_orange">#FBD45A</color>
+    <color name="hn_intelligence_red">#fffe2f42</color>
+    <color name="hn_intelligence_green">#ff079c0e</color>
+    <color name="hn_intelligence_yellow">#ffeb8b01</color>
+    <color name="hn_intelligence_purple">#ff920ac4</color>
+    <color name="hn_intelligence_chart_yellow">#fbd45a</color>
+    <color name="hn_intelligence_chart_red">#b62f30</color>
+
+
+    <color name="exam_correct">#0dc57e</color>
+    <color name="exam_editbg">#f5f5f5</color>
+    <color name="exam_again_bg">#fd951f</color>
+    <color name="exam_answer_bg">#dd2c1c</color>
+    <color name="exam_red">#dd2c1c</color>
+    <color name="exam_gray">#f5f5f5</color>
+    <color name="exam_selected">#daf5eb</color>
+    <color name="exam_selectedout">#0dc57e</color>
+    <color name="exam_index">#dddddd</color>
+    <color name="exam_indexout">#b3afae</color>
+
+    <color name="text_gray">#F2F4F6</color>
+
+    <color name="home_bg_gray">#F2F4F6</color>
+    <color name="home_text_yellow">#FAE2C2</color>
+
+    <color name="test_color">#b3b3b3</color>
+    <color name="gray">#8a8a8a</color>
+    <color name="gray2">#ebf1f1</color>
+    <color name="gray3">#666666</color>
+    <color name="grey_adbec0">#999999</color>
+    <color name="gray4">#e8e8e8</color>
+    <color name="refresh_loading_color">#4374DF</color>
+</resources>

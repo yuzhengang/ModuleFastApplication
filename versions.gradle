@@ -1,0 +1,134 @@
+/**
+ * Shared file between builds so that they can all use the same dependencies and
+ * maven repositories.
+ **/
+ext.deps = [:]
+
+def versions = [:]
+versions.android_gradle_plugin = "3.0.1"
+versions.kotlin = "1.1.51"
+versions.support = "27.0.2"
+versions.multidex = "1.0.2"
+versions.constraint_layout = "1.0.2"
+versions.dagger = "2.11"
+versions.glide = "3.8.0"
+versions.rxjava2 = "2.1.7"
+versions.rx_android = "2.0.1"
+versions.retrofit = "2.3.0"
+versions.event_bus = "3.1.1"
+versions.photo_view = "2.0.0"
+versions.persistent_cookie = "v1.0.1"
+versions.gson = "2.8.2"
+versions.qmui = "1.0.4"
+versions.flow_layout = "1.0.3"
+versions.rxeasyhttp = "2.1.5"
+versions.permission = "1.1.2"
+versions.utils = "1.10.0"
+versions.top_snackbar = "1.1.1"
+versions.litepal = "1.6.1"
+versions.toasty = "1.1.3"
+versions.logger = "1.15"
+versions.material_dialog = "0.9.6.0"
+//Arouter
+versions.arouter_compiler = "1.1.4"
+versions.arouter_api = "1.3.1"
+versions.crashreport_upgrade = "1.3.5"
+versions.tinker_android_lib = "1.9.9"
+
+versions.refresh_layout_kernel = "2.0.1"
+versions.refresh_header_material = "2.0.1"
+versions.refresh_footer_classics = "2.0.1"
+//versions.loadinglayout = "1.0.1"
+
+def deps = [:]
+
+def support = [:]
+support.annotations = "com.android.support:support-annotations:$versions.support"
+support.app_compat = "com.android.support:appcompat-v7:$versions.support"
+support.v13 = "com.android.support:support-v13:$versions.support"
+support.percent = "com.android.support:percent:$versions.support"
+support.recyclerview = "com.android.support:recyclerview-v7:$versions.support"
+support.cardview = "com.android.support:cardview-v7:$versions.support"
+support.design = "com.android.support:design:$versions.support"
+support.v4 = "com.android.support:support-v4:$versions.support"
+support.core_utils = "com.android.support:support-core-utils:$versions.support"
+support.multidex = "com.android.support:multidex:$versions.multidex"
+deps.support = support
+
+
+def retrofit = [:]
+retrofit.runtime = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+retrofit.adapter = "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofi"
+retrofit.gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+deps.retrofit = retrofit
+
+
+def dagger = [:]
+dagger.runtime = "com.google.dagger:dagger:$versions.dagger"
+dagger.android = "com.google.dagger:dagger-android:$versions.dagger"
+dagger.android_support = "com.google.dagger:dagger-android-support:$versions.dagger"
+dagger.compiler = "com.google.dagger:dagger-compiler:$versions.dagger"
+dagger.android_support_compiler = "com.google.dagger:dagger-android-processor:$versions.dagger"
+deps.dagger = dagger
+
+
+def kotlin = [:]
+kotlin.stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
+kotlin.test = "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin"
+kotlin.plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
+deps.kotlin = kotlin
+
+//view
+deps.constraint_layout = "com.android.support.constraint:constraint-layout:$versions.constraint_layout"
+deps.qmui = "com.qmuiteam:qmui:$versions.qmui"
+deps.flow_layout = "com.zhy:flowlayout-lib:$versions.flow_layout"
+deps.photo_view = "com.github.chrisbanes:PhotoView:$versions.photo_view"
+deps.material_dialog = "com.afollestad.material-dialogs:core:$versions.material_dialog"
+
+deps.android_gradle_plugin = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
+deps.rxjava2 = "io.reactivex.rxjava2:rxjava:$versions.rxjava2"
+deps.rx_android = "io.reactivex.rxjava2:rxandroid:$versions.rx_android"
+deps.rxeasyhttp = "com.zhouyou:rxeasyhttp:$versions.rxeasyhttp"
+deps.refresh_layout_kernel = "com.scwang.smart:refresh-layout-kernel:$versions.refresh_layout_kernel"
+deps.refresh_header_material = "com.scwang.smart:refresh-header-material:$versions.refresh_header_material"
+
+deps.refresh_footer_classics = "com.scwang.smart:refresh-footer-classics:$versions.refresh_footer_classics"
+//deps.loadinglayout = "com.github.czy1121:$versions.loadinglayout"
+
+
+//other
+deps.glide = "com.github.bumptech.glide:glide:$versions.glide"
+deps.event_bus = "org.greenrobot:eventbus:$versions.event_bus"
+deps.persistent_cookie = "com.github.franmontiel:PersistentCookieJar:$versions.persistent_cookie"
+deps.gson = "com.google.code.gson:gson:$versions.gson"
+deps.permission = "com.yanzhenjie:permission:$versions.permission"
+deps.utils = "com.blankj:utilcode:$versions.utils"
+deps.top_snackbar ="com.androidadvance:topsnackbar:$versions.top_snackbar"
+deps.litepal = "org.litepal.android:core:$versions.litepal"
+deps.toasty =  "com.github.GrenderG:Toasty:$versions.toasty"
+deps.logger = "com.orhanobut:logger:$versions.logger"
+deps.arouter_api = "com.alibaba:arouter-api:$versions.arouter_api"
+deps.arouter_compiler = "com.alibaba:arouter-compiler:$versions.arouter_compiler"
+deps.crashreport_upgrade = "com.tencent.bugly:crashreport_upgrade:$versions.crashreport_upgrade"
+deps.tinker_android_lib = "com.tencent.tinker:tinker-android-lib:$versions.tinker_android_lib"
+
+
+
+
+ext.deps = deps
+def build_versions = [:]
+build_versions.min_sdk = 16
+build_versions.target_sdk = 27
+build_versions.build_tools = "27.0.2"
+ext.build_versions = build_versions
+
+
+def addRepos(RepositoryHandler handler) {
+    handler.google()
+    handler.jcenter()
+    handler.mavenCentral()
+    //Add the JitPack repository
+    handler.maven { url "https://jitpack.io" }
+    handler.maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+}
+ext.addRepos = this.&addRepos

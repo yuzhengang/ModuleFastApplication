@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">module_main</string>
+    <string name="app_exit_hint">再按一次退出程序</string>
+    <string name="tab_title_home">主页</string>
+    <string name="tab_title_course">课程</string>
+    <string name="tab_title_org">组织结构</string>
+    <string name="tab_title_me">我的</string>
+</resources>
